@@ -9,9 +9,6 @@ public class Employee {
 	private Department department;
 	public Employee() {
 	}
-	public static void main(String[] args){
-		System.out.println("123");
-	}
 	public Employee(int id, String name, String gender, String email, String departmentId) {
 		this.id = id;
 		this.name = name;
